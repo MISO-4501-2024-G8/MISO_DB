@@ -15,7 +15,7 @@ BEGIN
     -- Check user credentials
     SELECT id, nombre, email, date_session INTO user_id, user_nombre, user_email, user_date_session
     FROM usuario
-    WHERE email = p_email AND password = encrypted_psw;
+    WHERE email = p_email AND password = encrypted_psw LIMIT 1;
     -- Return user information if credentials are correct
     IF user_id IS NOT NULL THEN
         SELECT user_id AS id, user_nombre AS nombre, user_email AS email, user_date_session AS date_session;
