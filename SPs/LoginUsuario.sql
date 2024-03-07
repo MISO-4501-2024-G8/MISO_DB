@@ -23,7 +23,7 @@ BEGIN
         -- If credentials are incorrect, return an error message
         SELECT 'Credenciales incorrectas' AS error;
     END IF;
-END;
+END
 
 -- CALL LoginUsuario('correo@example.com', 'contraseña123', 'MISOG8');
 -- DROP PROCEDURE LoginUsuario
