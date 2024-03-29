@@ -1,10 +1,14 @@
-CREATE TABLE user (
+
+-- SELECT * FROM users
+-- DELETE FROM users
+-- DROP TABLE users
+CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
     psw VARCHAR(512) NOT NULL,
     name VARCHAR(255) NOT NULL,
     doc_type VARCHAR(10) NOT NULL,
-    document BIGINT NOT NULL,
+    document VARCHAR(50) NOT NULL,
     gender VARCHAR(5) NOT NULL,
     age INT NOT NULL, 
     weight FLOAT NOT NULL,
@@ -17,5 +21,7 @@ CREATE TABLE user (
     sports VARCHAR(255) NOT NULL,
     acceptance_notify INT NOT NULL, 
     acceptance_tyc INT NOT NULL, 
-    acceptance_personal_data INT NOT NULL
+    acceptance_personal_data INT NOT NULL,
+    createdAt DATETIME,
+    updatedAt DATETIME
 );
