@@ -1,27 +1,17 @@
-
 -- SELECT * FROM users
 -- DELETE FROM users
 -- DROP TABLE users
 CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id VARCHAR(255) PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
-    psw VARCHAR(512) NOT NULL,
-    name VARCHAR(255) NOT NULL,
+    password VARCHAR(512) NOT NULL,
+    doc_num VARCHAR(255) NOT NULL,
     doc_type VARCHAR(10) NOT NULL,
-    document VARCHAR(50) NOT NULL,
-    gender VARCHAR(5) NOT NULL,
-    age INT NOT NULL, 
-    weight FLOAT NOT NULL,
-    height FLOAT NOT NULL,
-    birth_country VARCHAR(255) NOT NULL,
-    birth_city VARCHAR(255) NOT NULL,
-    residence_country VARCHAR(255) NOT NULL,
-    residence_city VARCHAR(255) NOT NULL,
-    residence_seniority INT NOT NULL, 
-    sports VARCHAR(255) NOT NULL,
-    acceptance_notify INT NOT NULL, 
-    acceptance_tyc INT NOT NULL, 
-    acceptance_personal_data INT NOT NULL,
+    name VARCHAR(100),
+    phone VARCHAR(50),
+    user_type INT NOT NULL, 
+    token VARCHAR(255),
+    expiration_token DATETIME,
     createdAt DATETIME,
     updatedAt DATETIME
 );
