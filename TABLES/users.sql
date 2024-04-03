@@ -10,7 +10,7 @@ CREATE TABLE users (
     name VARCHAR(100),
     phone VARCHAR(50),
     user_type INT NOT NULL, 
-    token VARCHAR(255),
+    token VARCHAR(500),
     expiration_token DATETIME,
     createdAt DATETIME,
     updatedAt DATETIME
