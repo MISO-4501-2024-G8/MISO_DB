@@ -1,5 +1,5 @@
-CREATE TABLE `plans` (
-  `id` int NOT NULL,
+CREATE TABLE `plan` (
+  `id` varchar(255) NOT NULL,
   `name` varchar(45) NOT NULL,
   `typePlan` varchar(15) NOT NULL,
   `startDate` datetime NOT NULL,

@@ -1,5 +1,5 @@
-CREATE TABLE `plan_premiums` (
-  `id` int NOT NULL,
+CREATE TABLE `plan_premium` (
+  `id` varchar(255) NOT NULL,
   `sesionesVirtuales` int DEFAULT NULL,
   `masajes` tinyint DEFAULT NULL,
   `cuidadoPosEjercicio` tinyint DEFAULT NULL,

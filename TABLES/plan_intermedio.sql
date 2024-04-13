@@ -1,5 +1,5 @@
-CREATE TABLE `plan_intermedios` (
-  `id` int NOT NULL,
+CREATE TABLE `plan_intermedio` (
+  `id` varchar(255) NOT NULL,
   `monitoreoTiempoReal` tinyint DEFAULT NULL,
   `alertasRiesgo` tinyint DEFAULT NULL,
   `comunicacionEntrenador` tinyint DEFAULT NULL,
