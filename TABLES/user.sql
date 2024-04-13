@@ -1,7 +1,7 @@
--- SELECT * FROM users
--- DELETE FROM users
--- DROP TABLE users
-CREATE TABLE users (
+-- SELECT * FROM user
+-- DELETE FROM user
+-- DROP TABLE user
+CREATE TABLE user (
     id VARCHAR(255) PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
     password VARCHAR(512) NOT NULL,

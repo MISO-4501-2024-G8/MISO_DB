@@ -1,8 +1,8 @@
--- SELECT * FROM sport_users
--- DELETE FROM sport_users
--- DROP TABLE sport_users
+-- SELECT * FROM sport_user
+-- DELETE FROM sport_user
+-- DROP TABLE sport_user
 
-CREATE TABLE sport_users (
+CREATE TABLE sport_user (
     id VARCHAR(255) PRIMARY KEY,
     gender VARCHAR(5) NOT NULL,
     age INT NOT NULL, 
