@@ -3,7 +3,7 @@ CREATE TABLE event (
     event_name VARCHAR(255) NOT NULL,
     event_description VARCHAR(500),
     event_location VARCHAR(255),
-    link VARCHAR(500),
+    link VARCHAR(500) DEFAULT '',
     createdAt DATETIME,
     updatedAt DATETIME
 );
