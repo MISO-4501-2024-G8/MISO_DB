@@ -14,6 +14,7 @@ CREATE TABLE sport_user (
     residence_city VARCHAR(255) NOT NULL,
     residence_seniority INT NOT NULL, 
     sports VARCHAR(255) NOT NULL,
+    typePlan VARCHAR(15) DEFAULT 'basico',
     acceptance_notify INT NOT NULL, 
     acceptance_tyc INT NOT NULL, 
     acceptance_personal_data INT NOT NULL,
