@@ -7,6 +7,7 @@ CREATE TABLE third_product (
     description VARCHAR(255) NOT NULL,
     value float NOT NULL,
     typeProduct VARCHAR(255) NOT NULL,
+    representative_phone VARCHAR(255) NOT NULL,
     createdAt DATETIME,
     updatedAt DATETIME
 );
