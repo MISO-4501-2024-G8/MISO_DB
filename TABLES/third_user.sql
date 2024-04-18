@@ -5,7 +5,7 @@ CREATE TABLE third_user (
     company_creation_date DATETIME NOT NULL,
     company_address VARCHAR(255), 
     contact_name VARCHAR(255) NOT NULL,
-    company_description VARCHAR(500),
+    company_description VARCHAR(500) DEFAULT '',
     company_status tinyint DEFAULT 1,
     createdAt DATETIME,
     updatedAt DATETIME
