@@ -1,6 +1,6 @@
 CREATE TABLE sport_profile (
     id VARCHAR(255) PRIMARY KEY,
-    id_user VARCHAR(255) NOT NULL,
+    id_sport_user VARCHAR(255) NOT NULL,
     sh_caminar tinyint,
     sh_trotar tinyint,
     sh_correr tinyint,
