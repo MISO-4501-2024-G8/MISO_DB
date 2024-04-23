@@ -1,5 +1,5 @@
 CREATE TABLE sports_session (
-    id VARCHAR(255) PRIMARY KEY,
+    id INT PRIMARY KEY,
     id_training_session VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
     week INT NOT NULL,
