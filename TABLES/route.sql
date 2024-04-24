@@ -7,6 +7,7 @@ CREATE TABLE route (
     route_latlon_A VARCHAR(255),
     route_latlon_B VARCHAR(255),
     route_type VARCHAR(255),
+    sport VARCHAR(255),
     link VARCHAR(500) DEFAULT '',
     createdAt DATETIME,
     updatedAt DATETIME
