@@ -9,6 +9,7 @@ CREATE TABLE training_plan (
     jueves_enabled tinyint,
     viernes_enabled tinyint,
     typePlan VARCHAR(15),
+    sport VARCHAR(255),
     id_eating_routine VARCHAR(255),
     id_rest_routine VARCHAR(255),
     createdAt DATETIME,
