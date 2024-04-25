@@ -6,6 +6,7 @@ CREATE TABLE event (
     event_type VARCHAR(255),
     sport VARCHAR(255),
     link VARCHAR(500) DEFAULT '',
+    event_date DATETIME,
     createdAt DATETIME,
     updatedAt DATETIME
 );
