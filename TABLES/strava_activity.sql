@@ -4,11 +4,12 @@ CREATE TABLE strava_activity (
     activity_name VARCHAR(255),
     activity_description VARCHAR(500),
     activity_type VARCHAR(255),
-    activity_distance INT,
+    activity_distance FLOAT,
     activity_trainer INT,
     activity_commute INT,
-    start_date_local DATETIME,
     elapsed_time INT,
+    sync INT,
+    start_date_local VARCHAR(255),
     createdAt DATETIME,
     updatedAt DATETIME
 );

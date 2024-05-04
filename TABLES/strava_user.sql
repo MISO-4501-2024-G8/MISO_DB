@@ -7,6 +7,7 @@ CREATE TABLE strava_user (
     access_token VARCHAR(500),
     refresh_token VARCHAR(500),
     timestamp INT,
+    last_sync VARCHAR(255),
     expiration_token DATETIME,
     createdAt DATETIME,
     updatedAt DATETIME
